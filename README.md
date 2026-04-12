@@ -1,42 +1,45 @@
 # ⬡ Polygone-Brain
 
-**Network Intelligence & Autonomous Diagnostic Assistant.**
+> ⚠️ **Status**: This repository is planned for integration into `polygone-shell` and the main `polygone` CLI.
 
-Polygone-Brain is the orchestration and intelligence layer of the Polygone network. It monitors swarm health, suggests topology optimizations, and provides a natural language interface for managing your post-quantum nodes.
+Polygone-Brain represents the orchestration and intelligence layer concept for the Polygone network:
+- Network health monitoring
+- Topology optimization suggestions
+- AI-powered diagnostics
 
 ---
 
-**Project origin · Origine :** French engineering · **[l-vs](https://github.com/lvs0)** · collective **Hope** (*by Hope*). Public focus: **post-quantum** protocols — not hosting economics or free-tier setups.
+## Planned Features
 
----
-
-## 🚀 Key Features
-
-- **Polygone Doctor**: Runs automated health checks on all your repositories and active node connections.
-- **AI Diagnostics**: Uses distributed inference (via `Polygone-Petals`) to identify network bottlenecks.
-- **Vapor Intelligence**: Learns from ephemeral drift patterns to improve shard discovery speeds.
-
-## 🛠️ Usage
-
-### Run a full health diagnostic
 ```bash
+# Health diagnostic (planned)
 polygone-brain doctor
+
+# AI diagnostics via Petals (planned)
+polygone-brain ask "How many relays are currently available?"
 ```
 
-### Ask the network brain
-```bash
-polygone-brain ask "How many relays are currently available for streaming?"
-```
+---
 
-## 🏗️ Architecture
+## Current Status
 
-```mermaid
-graph TD
-    A[Node Data] --> B[Brain Aggregator]
-    B -->|Request| C[Petals AI Network]
-    C -->|Response| D[Diagnostic Summary]
-    D --> E[User Suggestion]
-```
+This repository contains the **concept scaffolding**. The actual implementation will be integrated into:
 
-## ⚖️ License
-MIT License — 2026 · **l-vs** · **Hope** (*by Hope*) · Polygone ecosystem
+1. **polygone-shell**: TUI dashboard with real-time metrics
+2. **polygone CLI**: `polygone status --deep` command
+
+---
+
+## Why Not a Separate Repo?
+
+Brain functionality depends on:
+- Real-time data from running nodes
+- Petals integration for AI inference
+- Network topology knowledge
+
+These are better served as part of the main CLI than as a separate binary.
+
+---
+
+**License**: MIT  
+**Author**: l-vs (Hope)
