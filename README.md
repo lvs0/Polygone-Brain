@@ -4,6 +4,12 @@
 
 Polygone-Brain is the orchestration and intelligence layer of the Polygone network. It monitors swarm health, suggests topology optimizations, and provides a natural language interface for managing your post-quantum nodes.
 
+---
+
+**Project origin · Origine :** French engineering · **[l-vs](https://github.com/lvs0)** · collective **Hope** (*by Hope*). Public focus: **post-quantum** protocols — not hosting economics or free-tier setups.
+
+---
+
 ## 🚀 Key Features
 
 - **Polygone Doctor**: Runs automated health checks on all your repositories and active node connections.
@@ -33,5 +39,4 @@ graph TD
 ```
 
 ## ⚖️ License
-MIT License - 2026 Lévy / Polygone Ecosystem.
-by Hope
+MIT License — 2026 · **l-vs** · **Hope** (*by Hope*) · Polygone ecosystem
