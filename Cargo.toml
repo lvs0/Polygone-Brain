@@ -3,9 +3,10 @@ name = "polygone-brain"
 version = "0.1.0"
 edition = "2021"
 authors = ["l-vs (Hope)"]
+description = "AI assistant over the Polygone ephemeral network (Petals integration)"
 
 [dependencies]
-polygone-core = { path = "../Polygone" }
+polygone = { path = "../Polygone" }
 polygone-petals = { path = "../Polygone-Petals" }
 tokio = { version = "1", features = ["full"] }
 anyhow = "1"
