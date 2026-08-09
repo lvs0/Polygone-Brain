@@ -43,3 +43,8 @@ These are better served as part of the main CLI than as a separate binary.
 
 **License**: MIT  
 **Author**: l-vs (Hope)
+
+
+---
+
+**Soutenir** — [`payrequest.me/lvs0`](https://payrequest.me/lvs0)
